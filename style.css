@@ -3,7 +3,7 @@
         @media (max-width: 600px) {
             .menu {
                 display: flex;
-                flex-direction: column;
+                flex-direction: initial;
                 align-items: center;
             }
             .card {
