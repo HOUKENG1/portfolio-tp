@@ -1,6 +1,11 @@
 
     /* Responsivité */
-        @media (max-width: 480px) {
+        @media (max-width: 600px) {
+            .menu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
             .card {
                 padding: 25px;
             }
