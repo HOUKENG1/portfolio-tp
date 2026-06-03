@@ -8,6 +8,7 @@
                 font-size: 1.5rem;
             }
         }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,7 +25,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 20px;
      box-shadow: 0 12px 15px rgb(112, 110, 110);
 }
 span {
@@ -98,7 +98,7 @@ a {
     width: 170px;
     padding: 10px;
     margin-top: 100px;
-    margin: 100px;
+    margin: 70px;
     align-items: center;
     text-align: center;
 }
@@ -128,14 +128,13 @@ textarea{
         .card {
             background: var(--glass-bg);
             width: 100%;
-            max-width: 290px;
+            max-width: 240px;
             height: 350px;
             padding: 40px;
             margin-top: 100px;
             border-radius: 20px;
             box-shadow: 0 15px 35px rgba(13, 13, 13, 0.2);
             transition: transform 0.3s ease;
-            margin: 20px;
         }
       :root {
             --primary-color: #6366f1;
