@@ -20,13 +20,27 @@ body {
     line-height: 1.6;
     color: #333;
 }
+.abz img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    margin-bottom: 15px;
+}
+.abz img {
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-left: 20px;
+}
 header{
     position: fixed;
     width: 100%;
     z-index: 1000;
     padding-top: 7px;
     transition: 0,5s;
-    background: #f9edfb;
+    background: #aaaabb;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,86 +111,14 @@ a {
     border-bottom: 2px solid #007bff;
     padding-bottom: 5px;
 }
-.op {
+    .donc{
     background-color: #f9edfb;
     border-radius: 30px;
-    width: 170px;
-    padding: 10px;
-    margin-top: 100px;
-    margin: 70px;
-    align-items: center;
+    width: 370px;
+    padding: 15px;
     text-align: center;
-}
-     .input-group input {
-            width: 90%;
-            padding: 12px 16px;
-            border: 2px solid #e5e7eb;
-            border-radius: 10px;
-            outline: none;
-            font-size: 1rem;
-            transition: all 0.3s ease;
         }
-textarea{
-     width: 90%;
-            padding: 12px 16px;
-            border: 2px solid #e5e7eb;
-            border-radius: 10px;
-            outline: none;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-}
-        /* Groupes d'entrée */
-        .input-group {
-            margin-bottom: 20px;
-            position: relative;
-        }
-        .card {
-            background: var(--glass-bg);
-            width: 100%;
-            max-width: 240px;
-            height: 350px;
-            padding: 40px;
-            margin-top: 100px;
-            border-radius: 20px;
-            box-shadow: 0 15px 35px rgba(13, 13, 13, 0.2);
-            transition: transform 0.3s ease;
-        }
-      :root {
-            --primary-color: #6366f1;
-            --primary-hover: #4f46e5;
-            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            --glass-bg: rgba(255, 255, 255, 0.95);
-            --text-color: #1f2937;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .input-group input:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
-        }
-        /* Bouton dynamique */
-        .btn-submit {
-            width: 100%;
-            padding: 14px;
-            background-color: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.3s ease, transform 0.2s ease;
-            margin-top: 10px;
-        }
-
-        .btn-submit:hover {
-            background-color: var(--primary-hover);
-        }
-
-        .btn-submit:active {
-            transform: scale(0.98);
-        }
+      
         .ip {
-            background-color: rgb(70, 68, 68);
+            background-color: #aaaabb;
         }
