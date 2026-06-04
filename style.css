@@ -43,7 +43,7 @@ header{
     z-index: 1000;
     padding-top: 7px;
     transition: 0,5s;
-    background: rgb(60, 59, 59);
+    background: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
